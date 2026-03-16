@@ -11,7 +11,7 @@ repository               : "tahamousa2023-prog/tahamousa2023-prog.github.io"
 
 # Site Author
 author:
-  avatar           : "images/profile.png"
+  avatar           : "profile.png"
   name             : "Taha Mohammed"
   pronouns         :
   bio              : "MSc Computational Engineering Science @ TU Berlin. Robotics · AI · Isaac Sim · ROS2 · 3D Reconstruction. Previously @ Fraunhofer IPK & Siemens AG."
@@ -53,7 +53,7 @@ author:
   keybase          :
   instagram        :
   lastfm           :
-  linkedin         : "taha-mohammed-berlin"
+  linkedin         : "https://www.linkedin.com/in/taha-mahmoud/"
   mastodon         :
   medium           :
   pinterest        :
