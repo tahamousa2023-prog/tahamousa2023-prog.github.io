@@ -17,7 +17,7 @@ tags:
 As part of the **Path Matters** project at TU Berlin, this week I integrated 
 **BUFFER-X** into our robotic 2D→3D reconstruction pipeline. BUFFER-X is a 
 zero-shot point cloud registration method published as an **ICCV 2025 Highlight 
-paper** by MIT SPARK Lab. It aligns two 3D point clouds into the same coordinate 
+paper** [by MIT SPARK Lab](https://github.com/MIT-SPARK/BUFFER-X). It aligns two 3D point clouds into the same coordinate 
 frame without any retraining or fine-tuning — across any scene or sensor type.
 
 ---
