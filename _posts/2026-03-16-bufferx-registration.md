@@ -155,10 +155,11 @@ python compare.py Test/Baby_Yoda.ply Test/points.ply
 | **RMSE** | 0.0287 m (2.87 cm) |
 
 ### Before Alignment
-![Before alignment — blue cloud misaligned with red ground truth](/images/before1.png)
 
+![Before alignment — blue cloud misaligned with red ground truth]({{ "/images/before1.png" | relative_url }})
 ### After Alignment
-![After alignment — green cloud aligned with red ground truth](/images/After1.png)
+
+![After alignment — green cloud aligned with red ground truth]({{ "/images/after1.png" | relative_url }})
 
 ### Why is Fitness 0.33?
 
