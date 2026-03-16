@@ -35,6 +35,24 @@ ICP diverges and gives wrong results.
 
 **BUFFER-X solves this** by providing a robust initial alignment before ICP runs.
 
+
+
+## Video Walkthrough
+
+{% include video id="YOUR_YOUTUBE_VIDEO_ID" provider="youtube" %}
+```
+
+**Find your YouTube video ID:**
+```
+https://www.youtube.com/watch?v=XXXXXXXXXXX
+                                ^^^^^^^^^^^
+                            this part is the ID
+```
+
+For example if your URL is:
+```
+https://www.youtube.com/watch?v=dQw4w9WgXcQ
+
 ---
 
 ## Where BUFFER-X Fits in Our Pipeline
