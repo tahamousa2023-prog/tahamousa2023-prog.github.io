@@ -11,7 +11,7 @@ tags:
   - Robotics
   - BUFFER-X
 ---
-
+![BUFFER-X Point Cloud Registration](/images/bufferx.gif)
 ## Overview
 
 As part of the **Path Matters** project at TU Berlin, this week I integrated 
