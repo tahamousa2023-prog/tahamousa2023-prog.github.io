@@ -159,7 +159,7 @@ python compare.py Test/Baby_Yoda.ply Test/points.ply
 ![Before alignment — blue cloud misaligned with red ground truth]({{ "/images/before1.png" | relative_url }})
 ### After Alignment
 
-![After alignment — green cloud aligned with red ground truth]({{ "/images/after1.png" | relative_url }})
+![After alignment — green cloud aligned with red ground truth]({{ "/images/After1.png" | relative_url }})
 
 ### Why is Fitness 0.33?
 
