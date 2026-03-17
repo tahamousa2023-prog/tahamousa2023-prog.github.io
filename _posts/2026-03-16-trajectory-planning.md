@@ -22,8 +22,6 @@ entirely in simulation using ROS2, MoveIt2 and Isaac Sim.
 
 ![Trajectory Demo]({{ "/images/trajectory_demo.gif" | relative_url }})
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/vGlQuBhjrPI" frameborder="0" allowfullscreen></iframe>
-
 ---
 
 ## Overview
