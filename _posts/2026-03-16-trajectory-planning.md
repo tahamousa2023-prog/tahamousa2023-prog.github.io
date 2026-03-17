@@ -133,17 +133,29 @@ IK parameters used:
 
 ### Captured Images
 
-![Top View]({{ "/images/frame_1_top_view.png" | relative_url }})
-*Top View — camera looking down at object*
+<div style="display: flex; flex-wrap: wrap; gap: 10px;">
 
-![Front]({{ "/images/frame_2_front.png" | relative_url }})
-*Front View — camera facing object directly*
+  <div style="text-align: center; width: 22%;">
+    <img src="{{ "/images/frame_1_top_view.png" | relative_url }}" style="width: 100%;">
+    <p><em>Top View</em></p>
+  </div>
 
-![Right]({{ "/images/frame_3_right.png" | relative_url }})
-*Right Side — camera at 90 degree angle*
+  <div style="text-align: center; width: 22%;">
+    <img src="{{ "/images/frame_2_front.png" | relative_url }}" style="width: 100%;">
+    <p><em>Front View</em></p>
+  </div>
 
-![Back]({{ "/images/frame_4_back.png" | relative_url }})
-*Back View — camera from behind object*
+  <div style="text-align: center; width: 22%;">
+    <img src="{{ "/images/frame_3_right.png" | relative_url }}" style="width: 100%;">
+    <p><em>Right Side</em></p>
+  </div>
+
+  <div style="text-align: center; width: 22%;">
+    <img src="{{ "/images/frame_4_back.png" | relative_url }}" style="width: 100%;">
+    <p><em>Back View</em></p>
+  </div>
+
+</div>
 
 | Metric | Value |
 |--------|-------|
