@@ -11,10 +11,8 @@ tags:
   - Robotics
   - BUFFER-X
 ---
-<div style="text-align: center;">
-  <img src="{{ "/images/bufferx.gif" | relative_url }}" width="50%">
-  <p><em>BUFFER-X Point Cloud Registration</em></p>
-</div>
+<img src="{{ "/images/bufferx.gif" | relative_url }}" width="50%">
+<p><em>BUFFER-X Point Cloud Registration</em></p>
 
 As part of the **Path Matters** project at TU Berlin, this week I integrated 
 **BUFFER-X** into our robotic 2D→3D reconstruction pipeline. BUFFER-X is a 
