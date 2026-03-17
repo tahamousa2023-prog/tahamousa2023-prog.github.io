@@ -11,14 +11,21 @@ tags:
   - Robotics
   - BUFFER-X
 ---
-![BUFFER-X Point Cloud Registration](/images/bufferx.gif)
-## Overview
+
+![BUFFER-X Point Cloud Registration]({{ "/images/bufferx.gif" | relative_url }})
 
 As part of the **Path Matters** project at TU Berlin, this week I integrated 
 **BUFFER-X** into our robotic 2D→3D reconstruction pipeline. BUFFER-X is a 
-zero-shot point cloud registration method published as an **ICCV 2025 Highlight 
-paper** [by MIT SPARK Lab](https://github.com/MIT-SPARK/BUFFER-X). It aligns two 3D point clouds into the same coordinate 
-frame without any retraining or fine-tuning — across any scene or sensor type.
+zero-shot point cloud registration method published as an 
+[ICCV 2025 Highlight paper by MIT SPARK Lab](https://github.com/MIT-SPARK/BUFFER-X). 
+It aligns two 3D point clouds into the same coordinate frame without any 
+retraining or fine-tuning — across any scene or sensor type.
+
+---
+
+## Video Walkthrough
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vGlQuBhjrPI" frameborder="0" allowfullscreen></iframe>
 
 ---
 
@@ -35,46 +42,11 @@ ICP diverges and gives wrong results.
 
 **BUFFER-X solves this** by providing a robust initial alignment before ICP runs.
 
-
-
-## Video Walkthrough
-
-<iframe width="560" height="315" 
-src="https://www.youtube.com/embed/vGlQuBhjrPI" 
-frameborder="0" allowfullscreen></iframe>
-```
-
-**Find your YouTube video ID:**
-```
-https://www.youtube.com/watch?v=XXXXXXXXXXX
-                                ^^^^^^^^^^^
-                            this part is the ID
-```
-
-For example if your URL is:
-```
-https://www.youtube.com/watch?v=dQw4w9WgXcQ
-
 ---
 
 ## Where BUFFER-X Fits in Our Pipeline
-```
-Isaac Sim Scene
-      ↓
-Basler Camera Capture
-      ↓
-.PLY Export + Ground Truth Pose
-      ↓
-2D→3D Reconstruction (VGGT / Fast3R / SAM3D)
-      ↓
-Preprocessing (remove background)
-      ↓
-BUFFER-X Initial Alignment   ← NEW
-      ↓
-ICP Refinement
-      ↓
-Fitness / RMSE Score → RL Reward Signal
-```
+
+Isaac Sim Scene → Basler Camera Capture → .PLY Export + Ground Truth Pose → 2D→3D Reconstruction → Preprocessing → **BUFFER-X Initial Alignment** → ICP Refinement → Fitness / RMSE Score → RL Reward Signal
 
 ---
 
@@ -83,16 +55,13 @@ Fitness / RMSE Score → RL Reward Signal
 BUFFER-X (Balanced Unified Feature-based Framework for Extended Registration) 
 works in two stages:
 
-1. **Descriptor stage** — extracts local geometric features using a 
-PointNet++ backbone with multi-scale grouping
-2. **Pose estimation stage** — uses RANSAC or KISS-Matcher to find the 
-optimal 6-DoF rigid transformation T ∈ SE(3)
+1. **Descriptor stage** — extracts local geometric features using a PointNet++ backbone with multi-scale grouping
+2. **Pose estimation stage** — uses RANSAC or KISS-Matcher to find the optimal 6-DoF rigid transformation T ∈ SE(3)
 
 Key facts:
 - Only **0.91M trainable parameters** — extremely lightweight
 - **~1 second** per point cloud pair
-- Trained once on indoor RGB-D data → works on outdoor LiDAR, 
-synthetic Isaac Sim data, and more
+- Trained once on indoor RGB-D data — works on outdoor LiDAR, synthetic Isaac Sim data, and more
 - **ICCV 2025 Highlight** · MIT SPARK Lab
 
 ---
@@ -114,22 +83,14 @@ with an NVIDIA RTX A6000.
 
 ### Why did 47 pairs fail?
 
-The failures fall into two clear categories:
-
 **1. Symmetric scenes (majority of failures)**
 These have RRE near 90°, 125°, or exactly 180° — the scene geometry is 
 rotationally symmetric (empty corridors, white walls, repetitive patterns). 
 No registration method can reliably distinguish these orientations.
-```
-Example: fragment 798 → RRE: 180.00° (perfect flip — geometrically identical)
-```
 
 **2. Low-overlap pairs**
 The two scans share very little overlapping geometry. With insufficient 
 matching surface, no reliable transformation can be estimated.
-```
-Example: fragment 1544 → RRE: 1.89°, RTE: 1.15m
-```
 
 These are fundamental data challenges, not model failures.
 
@@ -144,11 +105,6 @@ in Isaac Sim using a simulated Basler camera.
 - Ground truth: `Baby_Yoda.ply` — 10,000 points, clean object, no color
 - Reconstruction: `points.ply` — 100,000 points, full scene with RGB color
 
-**Command:**
-```bash
-python compare.py Test/Baby_Yoda.ply Test/points.ply
-```
-
 **Results:**
 
 | Metric | Value |
@@ -158,10 +114,11 @@ python compare.py Test/Baby_Yoda.ply Test/points.ply
 
 ### Before Alignment
 
-![Before alignment — blue cloud misaligned with red ground truth]({{ "/images/before1.png" | relative_url }})
+![Before alignment]({{ "/images/before1.png" | relative_url }})
+
 ### After Alignment
 
-![After alignment — green cloud aligned with red ground truth]({{ "/images/After1.png" | relative_url }})
+![After alignment]({{ "/images/after1.png" | relative_url }})
 
 ### Why is Fitness 0.33?
 
@@ -175,8 +132,7 @@ The **RMSE of 2.87 cm on matched points** shows the object itself aligned
 correctly — confirmed visually in the After image above.
 
 **Next step:** run our preprocessing pipeline (background removal, 
-outlier filtering) on `points.ply` before comparison — this is already 
-part of our pipeline from the interim presentation.
+outlier filtering) on `points.ply` before comparison.
 
 ---
 
@@ -209,6 +165,5 @@ geometric heuristics with a direct alignment quality signal.
 ## Resources
 
 - [BUFFER-X GitHub](https://github.com/MIT-SPARK/BUFFER-X)
-- [BUFFER-X Paper (arXiv)](https://arxiv.org/abs/2503.07940)
-- [Path Matters Project — TU Berlin]()
+- [BUFFER-X Paper on arXiv](https://arxiv.org/abs/2503.07940)
 - [3DMatch Dataset](http://3dmatch.cs.princeton.edu/)
