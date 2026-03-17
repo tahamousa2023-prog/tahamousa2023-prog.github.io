@@ -39,7 +39,9 @@ ICP diverges and gives wrong results.
 
 ## Video Walkthrough
 
-{% include video id="YOUR_YOUTUBE_VIDEO_ID" provider="youtube" %}
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/vGlQuBhjrPI" 
+frameborder="0" allowfullscreen></iframe>
 ```
 
 **Find your YouTube video ID:**
