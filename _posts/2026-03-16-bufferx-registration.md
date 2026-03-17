@@ -118,7 +118,7 @@ in Isaac Sim using a simulated Basler camera.
 
 ### After Alignment
 
-![After alignment]({{ "/images/after1.png" | relative_url }})
+![After alignment]({{ "/images/After1.png" | relative_url }})
 
 ### Why is Fitness 0.33?
 
