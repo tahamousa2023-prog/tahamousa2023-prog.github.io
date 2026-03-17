@@ -14,13 +14,15 @@ tags:
   - Python
 ---
 
+![Trajectory Demo]({{ "/images/trajectory_demo.gif" | relative_url }})
+
 As part of the **Path Matters** project at TU Berlin, this post documents 
 the first complete pipeline run: a UR5e robot arm executes a planned 
 multi-view camera trajectory in Isaac Sim, captures images from 7 
 viewpoints, and saves them for 3D reconstruction. The system runs 
 entirely in simulation using ROS2, MoveIt2 and Isaac Sim.
 
-![Trajectory Demo]({{ "/images/trajectory_demo.gif" | relative_url }})
+
 
 ---
 
