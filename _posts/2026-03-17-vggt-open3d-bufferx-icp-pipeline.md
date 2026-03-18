@@ -22,6 +22,7 @@ ICP — producing quantitative alignment metrics at every stage.
 
 <video width="100%" controls>
   <source src="{{ "/files/pipeline_demo.mp4" | relative_url }}" type="video/mp4">
+  Your browser does not support the video tag.
 </video>
 
 ---
