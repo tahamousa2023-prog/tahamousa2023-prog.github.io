@@ -20,7 +20,9 @@ reconstruction, we manually clean and align the point cloud using Open3D,
 then run BUFFER-X for coarse global registration, and finally refine with 
 ICP — producing quantitative alignment metrics at every stage.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/YOUR_VIDEO_ID" frameborder="0" allowfullscreen></iframe>
+<video width="100%" controls>
+  <source src="{{ "/files/pipeline_demo.mp4" | relative_url }}" type="video/mp4">
+</video>
 
 ---
 
