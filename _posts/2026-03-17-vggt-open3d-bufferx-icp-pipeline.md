@@ -198,24 +198,25 @@ for a real-world scan of an industrial object.
 
 ## All 4 Stages Side by Side
 
-<div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <div style="text-align: center; width: 22%;">
-    <img src="{{ "/images/01_raw_overlay.png" | relative_url }}" style="width: 100%;">
-    <p style="font-size: 12px;"><em>1. Raw</em></p>
-  </div>
-  <div style="text-align: center; width: 22%;">
-    <img src="{{ "/images/02_manual_overlay.png" | relative_url }}" style="width: 100%;">
-    <p style="font-size: 12px;"><em>2. Manual</em></p>
-  </div>
-  <div style="text-align: center; width: 22%;">
-    <img src="{{ "/images/03_bufferx_overlay.png" | relative_url }}" style="width: 100%;">
-    <p style="font-size: 12px;"><em>3. BUFFER-X</em></p>
-  </div>
-  <div style="text-align: center; width: 22%;">
-    <img src="{{ "/images/04_icp_overlay.png" | relative_url }}" style="width: 100%;">
-    <p style="font-size: 12px;"><em>4. ICP Final</em></p>
-  </div>
-</div>
+<a href="{{ "/images/01_raw_overlay.png" | relative_url }}" target="_blank">
+  <img src="{{ "/images/01_raw_overlay.png" | relative_url }}" width="100%">
+</a>
+<p style="font-size: 13px;"><em>1. Raw — click to enlarge</em></p>
+
+<a href="{{ "/images/02_manual_overlay.png" | relative_url }}" target="_blank">
+  <img src="{{ "/images/02_manual_overlay.png" | relative_url }}" width="100%">
+</a>
+<p style="font-size: 13px;"><em>2. Manual — click to enlarge</em></p>
+
+<a href="{{ "/images/03_bufferx_overlay.png" | relative_url }}" target="_blank">
+  <img src="{{ "/images/03_bufferx_overlay.png" | relative_url }}" width="100%">
+</a>
+<p style="font-size: 13px;"><em>3. BUFFER-X — click to enlarge</em></p>
+
+<a href="{{ "/images/04_icp_overlay.png" | relative_url }}" target="_blank">
+  <img src="{{ "/images/04_icp_overlay.png" | relative_url }}" width="100%">
+</a>
+<p style="font-size: 13px;"><em>4. ICP Final — click to enlarge</em></p>
 
 ---
 
