@@ -18,7 +18,7 @@ and **TU Berlin** that reduces industrial robot TCP calibration time by 87.5%
 while improving accuracy by 76% through deep learning-driven pose selection.
 
 ---
-
+<img src="{{ "/images/Fig2.png" | relative_url }}" width="50%">
 ## 1. Project Overview
 
 **One-sentence summary:** An intelligent vision-based calibration system that 
