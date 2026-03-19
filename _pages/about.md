@@ -15,7 +15,8 @@ at **Siemens AG**, **Fraunhofer IPK**, and **TU Berlin**. Focused on robotics, c
 vision, and sensor fusion, with emphasis on learning-based methods for real-world systems. 
 Demonstrated impact through development of vision-based calibration approaches achieving 
 significant improvements in efficiency and accuracy. Strong background in **ROS2**, 
-**deep learning (PyTorch)**, and real-time system integration.
+**deep learning (PyTorch)**, and real-time system integration with cutting-edge research in 
+AI-driven robotics and 3D reconstruction.
 
 ---
 
