@@ -9,10 +9,13 @@ redirect_from:
 
 ## Hi, I'm Taha 👋
 
-I'm a **Mechatronics & Computational Engineering Science** student at **Technische Universität Berlin**, 
-with a strong background in robotics, AI, and industrial automation. I combine hands-on engineering 
-experience from **Siemens AG** and **Fraunhofer IPK** with cutting-edge research in 
-AI-driven robotics and 3D reconstruction.
+I am a **Mechatronics Engineer (B.Sc.)** and **M.Sc. Computational Engineering Science** 
+student at **Technische Universität Berlin** — a research-oriented engineer with experience 
+at **Siemens AG**, **Fraunhofer IPK**, and **TU Berlin**. Focused on robotics, computer 
+vision, and sensor fusion, with emphasis on learning-based methods for real-world systems. 
+Demonstrated impact through development of vision-based calibration approaches achieving 
+significant improvements in efficiency and accuracy. Strong background in **ROS2**, 
+**deep learning (PyTorch)**, and real-time system integration.
 
 ---
 
@@ -20,6 +23,19 @@ AI-driven robotics and 3D reconstruction.
 
 **MSc Computational Engineering Science** — TU Berlin *(2023 – present)*  
 Berlin, Germany
+
+The Master's degree in Computational Engineering Science offers specialisations in 
+**Computer Science and Mathematics**, **Simulation and Optimisation**, and 
+**Measurement, Control and Regulation**.
+
+**Courses:** Applied Deep Learning in Engineering · Applied Machine Learning in Engineering · 
+Introduction to Data Analytics with Python · Künstliche Intelligenz: Grundlagen und Anwendungen · 
+Mobile Working Robot · Motion Planning · Data Science and AI for Water Management · 
+Python for Machine Learning · Software Engineering eingebetteter Systeme · Reibungs Physik
+
+**Master Thesis:** Development and evaluation of a system for integrating and calibrating 
+a surface processing tool into the system environment of a cobot — 
+*Fraunhofer IPK, Berlin (2024–2025)*
 
 **BSc Mechatronics Engineering** — Assiut University *(2011 – 2016)*  
 Specialisation: Robotics, Measurement & Control Engineering  
