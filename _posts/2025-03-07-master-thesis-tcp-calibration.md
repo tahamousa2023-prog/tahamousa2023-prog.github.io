@@ -25,6 +25,8 @@ while improving accuracy by 76% through deep learning-driven pose selection.
 reduces industrial robot TCP calibration time by 87.5% while improving accuracy 
 by 76% through deep learning-driven pose selection.
 
+
+<img src="{{ "/images/Fig1.png" | relative_url }}" width="50%">
 **Institution:** Fraunhofer Institute for Production Systems and Design Technology (IPK), TU Berlin
 
 **Duration:** 2024-2025
