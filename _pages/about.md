@@ -2,129 +2,125 @@
 permalink: /
 title: "About Me"
 author_profile: true
-redirect_from: 
+redirect_from:
   - /about/
   - /about.html
 ---
 
-## Hi, I'm Taha 👋
+I am a **Mechatronics Engineer and MSc Computational Engineering Science
+candidate at TU Berlin** — bridging 7+ years of industrial engineering
+with applied research in intelligent robotic systems.
 
-I am a **Mechatronics Engineer (B.Sc.)** and **M.Sc. Computational Engineering Science** 
-student at **Technische Universität Berlin** — a research-oriented engineer with experience 
-at **Siemens AG**, **Fraunhofer IPK**, and **TU Berlin**. Focused on robotics, computer 
-vision, and sensor fusion, with emphasis on learning-based methods for real-world systems. 
-Demonstrated impact through development of vision-based calibration approaches achieving 
-significant improvements in efficiency and accuracy. Strong background in **ROS2**, 
-**deep learning (PyTorch)**, and real-time system integration with cutting-edge research in 
-AI-driven robotics and 3D reconstruction.
+My work sits at the intersection of **3D perception, robot learning,
+and real-world deployment** — building systems that transfer from
+simulation to physical environments.
+
+Currently completing my Master's thesis at **Fraunhofer IPK Berlin**,
+where I developed a vision-based TCP calibration system for collaborative
+robots using deep learning — achieving **87.5% reduction in calibration
+time** and **76% improvement in accuracy** over conventional methods.
+
+Simultaneously contributing to the **Path Matters** research project
+at TU Berlin: an RL-driven pipeline that teaches a UR5e robot to
+autonomously discover optimal camera trajectories for 3D reconstruction
+using Isaac Sim, VGGT, BUFFER-X, and PPO — with alignment quality
+metrics feeding directly into the reward function.
+
+Before academia, I spent **4.5 years at Siemens AG** as part of the
+Europeans@Siemens programme — working across PLC programming, machine
+vision, robotics, and industrial control systems including a 4800MW
+power plant DCS. This industrial foundation is what makes my research
+practically grounded.
+
+I am actively seeking a **funded PhD or Industrial Doctorate** in
+robotic perception, learning-based control, or sim-to-real transfer.
 
 ---
 
-## 🎓 Education
+## Education
 
-**MSc Computational Engineering Science** — TU Berlin *(2023 – present)*  
+**MSc Computational Engineering Science** — TU Berlin *(2023 – present)*
 Berlin, Germany
 
-The Master's degree in Computational Engineering Science offers specialisations in 
-**Computer Science and Mathematics**, **Simulation and Optimisation**, and 
-**Measurement, Control and Regulation**.
+Specialisations: Computer Science and Mathematics · Simulation and
+Optimisation · Measurement, Control and Regulation
 
-**Courses:** Applied Deep Learning in Engineering · Applied Machine Learning in Engineering · 
-Introduction to Data Analytics with Python · Künstliche Intelligenz: Grundlagen und Anwendungen · 
-Mobile Working Robot · Motion Planning · Data Science and AI for Water Management · 
-Python for Machine Learning · Software Engineering eingebetteter Systeme · Reibungs Physik
+Relevant courses: Applied Deep Learning in Engineering · Applied Machine
+Learning in Engineering · Motion Planning · Mobile Working Robot ·
+Künstliche Intelligenz: Grundlagen und Anwendungen · Data Science and AI ·
+Software Engineering eingebetteter Systeme · Introduction to Data Analytics
 
-**Master Thesis:** Development and evaluation of a system for integrating and calibrating 
-a surface processing tool into the system environment of a cobot — 
-*Fraunhofer IPK, Berlin (2024–2025)*
-
-**BSc Mechatronics Engineering** — Assiut University *(2011 – 2016)*  
-Specialisation: Robotics, Measurement & Control Engineering  
-Thesis: *Autonomous Navigation for Aerial Robots*
+**Master Thesis:** Development and evaluation of a vision-based system
+for integrating and calibrating a surface processing tool into the
+system environment of a cobot — *Fraunhofer IPK Berlin, 2024–2025*
 
 ---
 
-## 💼 Experience
+**BSc Mechatronics Engineering** — Assiut University *(2011–2016)*
+Graduated **4th in class** · Specialisation: Robotics, Measurement
+and Control Engineering
 
-**Master's Thesis Researcher — Fraunhofer IPK** *(Apr 2025 – Jan 2026)*  
-- Vision-based calibration system for collaborative robots using CNN (ResNet-18, PyTorch)
-- Sensor fusion: RGB-D data, robot kinematics and visual odometry with ROS2
-- Closed-loop control with iterative optimisation
-- Hardware-in-the-loop validation and automated surface processing
-
-**Mechatronic Systems Developer — TU Berlin** *(Jan 2025 – Dec 2025)*  
-- AI-based image recognition and motor control for pesticide-free agriculture
-- Autonomous systems simulation with ROS2, Gazebo and CUDA-accelerated perception
-- Real-time AI deployment on NVIDIA Jetson Orin NX, Orin Nano and Xavier NX
-
-**Student Trainee, Mechatronics & Automation — Siemens AG** *(May 2024 – Feb 2025)*  
-- Mechatronics and automation engineering development projects
-- Hardware/software integration and testing in automated applications
-
-**Mechatronics Engineer, Europeans@Siemens — Siemens AG** *(Aug 2019 – Jan 2023)*  
-- IIoT dashboards using MQTT for high-voltage switchgear monitoring
-- PLC programming and production system configuration
-- Final project: sorting system integrating a camera system and a robotic arm
-
-**Project Engineer — Origin Systems, Cairo** *(Mar 2018 – Jul 2019)*  
-- Machine-vision systems for the pharmaceutical industry
-- Commissioned 11 track-and-trace systems for EIPICO
-- Training sessions on LabVIEW software platform
-
-**Intern, Fab Lab Engineer — Giza Systems** *(Jul 2016 – Jan 2017)*  
-- Led the FLOW Project, a mobile Fab Lab initiative
-- Workshops on Arduino, CAD, design and electronics
+Thesis: *Autonomous Navigation for Flying Robots*
 
 ---
 
-## 🔬 Current Project
+## Experience
 
-**Path Matters: Learning Optimal Inference-Time Trajectories for Robotic 2D→3D AI Reconstruction**  
-*Automation Project · TU Berlin · WiSe 25/26*
+**Master's Thesis Researcher — Fraunhofer IPK** *(Apr 2025 – Jan 2026)*
+Vision-based TCP calibration using CNN (ResNet-18, PyTorch) and deep
+learning. Sensor fusion: RGB-D data, robot kinematics and visual odometry
+with ROS2. Key result: intelligent data selection achieves **87.5% faster**
+calibration and **76% higher accuracy** than conventional methods.
+Hardware-in-the-Loop validation and real-time deployment on embedded hardware.
 
-Building an adaptive pipeline that uses **Reinforcement Learning (PPO)** to guide a **UR5e robot arm** 
-toward optimal viewpoints for 3D reconstruction. The pipeline integrates:
-- VGGT · SAM3D · Fast3R for 2D→3D reconstruction
-- **BUFFER-X** for zero-shot point cloud registration
-- ICP for final alignment
-- Isaac Sim + Isaac Lab for simulation and RL training
+**Mechatronic Systems Developer — TU Berlin** *(Jan 2025 – Dec 2025)*
+AI-based image recognition and motor control for pesticide-free agriculture.
+Real-time deployment on NVIDIA Jetson Orin NX, Orin Nano and Xavier NX
+using CUDA, C++ and Python. Autonomous system simulation with ROS2 and Gazebo.
 
----
+**Mechatronics Engineer — Siemens AG** *(Aug 2019 – Feb 2023)*
+Europeans@Siemens Programme. PLC programming, machine vision, robotics,
+and industrial control systems. Operated instrumentation at a 4800MW power
+plant using SPPA-T3000 DCS. Final project: camera-based sorting system
+integrating machine vision and a robotic arm.
 
-## 🛠️ Technical Skills
-
-**Programming**  
-Python · C · C++ · MATLAB & Simulink · SQL · CUDA
-
-**AI & Machine Learning**  
-PyTorch · TensorFlow · Keras · LLMs · MLOps · Data Engineering
-
-**Robotics & Systems**  
-ROS2 · Gazebo · Isaac Sim · Isaac Lab · MoveIt2  
-Point Cloud Registration · BUFFER-X · ICP
-
-**Industrial & Embedded**  
-PLC Programming · IIoT · MQTT · Embedded Systems  
-NVIDIA Jetson · DIN-VDE · Hardware-in-the-Loop
-
-**General**  
-Technical Documentation · Data Analysis · Linux · Git · Docker
+**Projects Engineer — Origin Systems, Cairo** *(Mar 2018 – Jul 2019)*
+Machine-vision automation in the pharmaceutical industry. Commissioned
+11 track-and-trace systems. Technical support for 8 machines at MUP.
 
 ---
 
-## 🌍 Languages
+## Technical Skills
 
-| Language | Level |
-|----------|-------|
-| Arabic   | Native |
-| German   | C1 |
-| English  | C1 |
+**Robotics and Simulation**
+ROS2 · Isaac Sim · Isaac Lab · MoveIt2 · Gazebo · UR5e · NVIDIA Jetson
+
+**AI and Deep Learning**
+PyTorch · TensorFlow · ResNet · PPO · VGGT · SAM3D · Fast3R
+
+**3D Perception**
+BUFFER-X · ICP · Open3D · Point Cloud Registration · RGB-D · Sensor Fusion
+
+**Systems and Embedded**
+CUDA · C++ · Python · Docker · PLC · DCS · Hardware-in-the-Loop
+
+**Industrial**
+Machine Vision · Camera Calibration · LabVIEW · Industry 4.0
 
 ---
 
-## 📬 Contact
+## Languages
 
-📧 taha.mousa2023@gmail.com  
-📍 Berlin, Germany  
-📞 +49 176 32269206  
-🔗 [GitHub](https://github.com/tahamousa2023-prog) · [LinkedIn](https://linkedin.com/in/taha-mohammed-berlin)
+Arabic (Native) · German (C1) · English (C1)
+
+---
+
+## Contact
+
+📧 taha.mousa2023@gmail.com · 📍 Berlin, Germany
+
+[LinkedIn](https://linkedin.com/in/taha-mahmoud) ·
+[GitHub](https://github.com/tahamousa2023-prog) ·
+[Download CV](/files/CV_Taha_Mohammed.pdf)
+
+**Open to:** PhD positions · Industrial Doctorate · Research Engineer roles · Collaboration
