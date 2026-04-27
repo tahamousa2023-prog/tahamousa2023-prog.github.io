@@ -4,73 +4,32 @@ title: "PhD and Collaboration"
 author_profile: true
 ---
 
-## Open to PhD Collaboration
+I am looking for a funded PhD position or industrial doctorate starting in 2026, in Berlin or Germany. My background combines seven years of engineering practice with current research in robotic perception and learning-based control — which I think is a genuinely useful combination for applied robotics research.
 
-I am actively seeking a **funded PhD position or Industrial Doctorate**
-starting in 2026 — in Berlin, Germany, or remote with strong
-industry connection.
+**What I bring to a PhD project**
 
----
+On the engineering side, I have real deployment experience: four and a half years at Siemens AG working on PLC systems, machine vision, robotics integration, and a 4800 MW power plant control system. I know how industrial robotic cells are actually structured, what goes wrong in practice, and what it means to deliver something that runs reliably in a production environment. At Fraunhofer IPK, I applied this background to a research problem and produced a calibration system that is 87.5% faster and 76% more accurate than the conventional approach — not by using more data, but by selecting better data.
 
-## What I Bring
+On the research side, I have hands-on experience building end-to-end robotic pipelines: Isaac Sim environments, ROS2 and MoveIt2 motion control, VGGT and Fast3R reconstruction, ICP and BUFFER-X registration, and PPO reinforcement learning in Isaac Lab. I know how these components interact and where the hard integration problems are.
 
-**Research capability**
-- Working end-to-end robotics pipeline: Isaac Sim → VGGT → BUFFER-X → ICP → PPO RL
-- Demonstrated research impact: 87.5% faster calibration, 76% more accurate
-- Experience with full research cycle: problem definition, implementation, evaluation, documentation
+I am a C1 speaker of both German and English, which matters for working in German research institutions and industry partnerships.
 
-**Industrial depth**
-- 4.5 years Siemens AG — PLC, machine vision, robotics, power plant DCS
-- 1 year Fraunhofer IPK — applied research, real hardware, real results
-- Strong understanding of what works in practice vs. what works in papers
+**Research areas I want to work in**
 
-**Technical stack**
-- ROS2 · Isaac Sim · Isaac Lab · PyTorch · CUDA · Open3D · BUFFER-X
-- UR5e · NVIDIA Jetson · Azure Kinect · Basler Camera
-- Python · C++ · Docker · Git · Linux
+3D perception and reconstruction for robotic inspection and manipulation planning. Learning-based trajectory planning and viewpoint selection. Sim-to-real transfer for manipulation and scanning tasks. Data-efficient methods for robot calibration and system identification. Vision-language-action models for industrial robotic systems.
 
-**Soft skills**
-- C1 German and English — fully integrated in German research culture
-- Cross-functional team experience (Siemens international programme)
-- Strong technical writing and documentation (this website, thesis, reports)
+**Institutions I am targeting**
 
----
+TU Berlin (Robotics and Biology Lab, Control Systems Group, MAR — Institut für Werkzeugmaschinen und Fabrikbetrieb). TU Munich (robotics, AI, computer vision groups). Fraunhofer IPA and IPK. NVIDIA Research, Isaac and Robotics teams. Bosch Research and Siemens Research. German Aerospace Center (DLR).
 
-## Target Research Areas
+**Timeline**
 
-- 3D perception and reconstruction for robotics
-- Reinforcement learning for robot manipulation and trajectory planning
-- Sim-to-real transfer for manipulation
-- Data-efficient robot learning and calibration
-- Vision-language-action models for industrial systems
+Available from February 2026 after Master's thesis submission at Fraunhofer IPK.
 
----
+**Contact**
 
-## Target Institutions
+If you are a professor, research group leader, or industrial R&D manager and think there might be a good fit — or if you just want to discuss research ideas — I am happy to talk.
 
-- TU Berlin (Robotics and Biology Lab, Control Systems Group, MAR)
-- TU Munich (Robotics, AI, Computer Vision)
-- Fraunhofer IPA / IPK Berlin
-- NVIDIA Research — Isaac / Robotics team
-- Bosch Research / Siemens Research
-- German Aerospace Center (DLR)
+📧 [taha.mousa2023@gmail.com](mailto:taha.mousa2023@gmail.com) · [LinkedIn](https://linkedin.com/in/taha-mahmoud) · [Download CV](/files/CV_Taha_Mohammed.pdf)
 
----
-
-## Timeline
-
-Available from **February 2026** — after Master's thesis submission.
-
----
-
-## Contact
-
-If you are a professor, research group leader, or industrial R&D manager
-looking for a motivated PhD candidate with real engineering depth and
-genuine research curiosity:
-
-📧 [taha.mousa2023@gmail.com](mailto:taha.mousa2023@gmail.com)
-🔗 [LinkedIn](https://linkedin.com/in/taha-mahmoud)
-📄 [Download CV](/files/CV_Taha_Mohammed.pdf)
-
-I respond within 24 hours.
+I reply within 24 hours.
