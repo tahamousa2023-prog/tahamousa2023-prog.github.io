@@ -24,7 +24,7 @@ TU Berlin (Robotics and Biology Lab, Control Systems Group, MAR — Institut fü
 
 **Timeline**
 
-Available from February 2026 after Master's thesis submission at Fraunhofer IPK.
+Available from late 2026 after Master's thesis completion after Master's thesis submission at Fraunhofer IPK.
 
 **Contact**
 
