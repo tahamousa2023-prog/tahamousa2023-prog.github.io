@@ -1,16 +1,54 @@
 {% include base_path %}
-
 <meta charset="utf-8">
-
 {% include seo.html %}
-
 <link href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}" type="application/atom+xml" rel="alternate" title="{{ site.title }} Feed">
-
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <script>
   document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
 </script>
-
 <!-- For all browsers -->
 <link rel="stylesheet" href="{{ base_path }}/assets/css/main.css">
+
+<!-- Visitor Tracker -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+  (function () {
+    emailjs.init({ publicKey: "seTj3BgGQeOYzRikz" });
+
+    function getBrowser() {
+      const ua = navigator.userAgent;
+      if (ua.includes("Edg")) return "Microsoft Edge";
+      if (ua.includes("OPR") || ua.includes("Opera")) return "Opera";
+      if (ua.includes("Chrome")) return "Chrome";
+      if (ua.includes("Firefox")) return "Firefox";
+      if (ua.includes("Safari")) return "Safari";
+      return "Unknown Browser";
+    }
+
+    function getDevice() {
+      return /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
+        ? "Mobile" : "Desktop";
+    }
+
+    fetch("https://ipapi.co/json/")
+      .then((res) => res.json())
+      .then((data) => {
+        emailjs.send("service_teekysw", "l8mpoap", {
+          time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
+          country: (data.country_name || "Unknown") + " (" + (data.country_code || "?") + ")",
+          page: window.location.pathname || "/",
+          browser: getBrowser(),
+          device: getDevice(),
+        });
+      })
+      .catch(() => {
+        emailjs.send("service_teekysw", "l8mpoap", {
+          time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
+          country: "Unknown",
+          page: window.location.pathname || "/",
+          browser: getBrowser(),
+          device: getDevice(),
+        });
+      });
+  })();
+</script>
