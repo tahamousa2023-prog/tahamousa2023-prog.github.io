@@ -13,6 +13,7 @@
 <script>
   (function () {
     emailjs.init({ publicKey: "seTj3BgGQeOYzRikz" });
+
     function getBrowser() {
       const ua = navigator.userAgent;
       if (ua.includes("Edg")) return "Microsoft Edge";
@@ -22,29 +23,23 @@
       if (ua.includes("Safari")) return "Safari";
       return "Unknown Browser";
     }
+
     function getDevice() {
       return /Mobi|Android|iPhone|iPad/i.test(navigator.userAgent)
         ? "Mobile" : "Desktop";
     }
-    fetch("https://freeipapi.com/api/json")
-      .then((res) => res.json())
-      .then((data) => {
-        emailjs.send("service_teekysw", "template_l8mpoap", {
-          time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
-          country: (data.countryName || "Unknown") + " (" + (data.countryCode || "?") + ")",
-          page: window.location.pathname || "/",
-          browser: getBrowser(),
-          device: getDevice(),
-        });
-      })
-      .catch(() => {
-        emailjs.send("service_teekysw", "template_l8mpoap", {
-          time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
-          country: "Unknown",
-          page: window.location.pathname || "/",
-          browser: getBrowser(),
-          device: getDevice(),
-        });
-      });
+
+    function getLang() {
+      return navigator.language || "Unknown";
+    }
+
+    emailjs.send("service_teekysw", "template_l8mpoap", {
+      time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
+      country: getLang(),
+      page: window.location.href,
+      browser: getBrowser(),
+      device: getDevice(),
+    });
+
   })();
 </script>
