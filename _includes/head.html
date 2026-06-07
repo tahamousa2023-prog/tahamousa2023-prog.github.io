@@ -33,7 +33,7 @@
     fetch("https://ipapi.co/json/")
       .then((res) => res.json())
       .then((data) => {
-        emailjs.send("service_teekysw", "l8mpoap", {
+        emailjs.send("service_teekysw", "template_l8mpoap", {
           time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
           country: (data.country_name || "Unknown") + " (" + (data.country_code || "?") + ")",
           page: window.location.pathname || "/",
@@ -42,7 +42,7 @@
         });
       })
       .catch(() => {
-        emailjs.send("service_teekysw", "l8mpoap", {
+        emailjs.send("service_teekysw", "template_l8mpoap", {
           time: new Date().toLocaleString("en-GB", { timeZone: "Europe/Berlin" }),
           country: "Unknown",
           page: window.location.pathname || "/",
