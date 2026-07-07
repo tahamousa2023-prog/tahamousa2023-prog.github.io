@@ -1,6 +1,6 @@
 ---
 title: "Industrial Engineering at Siemens AG — Europeans@Siemens Programme"
-excerpt: "Four and a half years in industrial automation: PLC programming, machine vision, robotics, and a 4800 MW power plant DCS at Siemens Berlin."
+excerpt: "Three and a half years in industrial automation: PLC programming, machine vision, robotics, and a 4800 MW power plant DCS at Siemens Berlin."
 collection: portfolio
 date: 2023-02-01
 ---

@@ -31,7 +31,7 @@ by 76% through deep learning-driven pose selection.
 
 <img src="{{ "/images/Fig1.png" | relative_url }}" width="50%">
 
-**Duration:** 2024-2025
+**Duration:** April 2025 – January 2026
 
 ---
 
@@ -212,7 +212,6 @@ teaching-by-demonstration, or data-efficient learning.
 - Active learning: robot automatically selects next best pose
 - Transfer learning: CNN pretrained on one robot generalizes to others
 - Online recalibration: detect calibration drift and auto-correct
-- Paper submitted to IEEE/RSJ IROS 2026 (under review)
 
 ---
 

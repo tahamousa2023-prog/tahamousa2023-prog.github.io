@@ -5,7 +5,7 @@ collection: portfolio
 date: 2025-03-07
 ---
 
-This is my Master's thesis, conducted at the Fraunhofer Institute for Production Systems and Design Technology (IPK) in Berlin under Prof. Dr.-Ing. Jörg Krüger and M.Sc. Oliver Krumpek, as part of my MSc Computational Engineering Science at TU Berlin.
+This is my Master's thesis, conducted at the Fraunhofer Institute for Production Systems and Design Technology (IPK) in Berlin under Prof. Dr.-Ing. Jörg Krüger, as part of my MSc Computational Engineering Science at TU Berlin.
 
 The title is: Development and evaluation of a system for integrating and calibrating a surface processing tool into the system environment of a cobot.
 
@@ -17,7 +17,7 @@ Standard TCP (Tool Center Point) calibration for industrial collaborative robots
 
 I trained a ResNet-18 CNN in PyTorch to predict the geometric quality of a calibration pose from the RGB-D camera image, without running the full calibration. The idea is that some poses carry much more information than others — poses with good geometric spread and low redundancy contribute more to the calibration accuracy than poses that are close together or from similar viewing angles. If you can identify the five most informative poses upfront, you do not need the other thirty-five.
 
-The full system runs under ROS2 Humble on a NVIDIA Jetson Orin NX and uses an Azure Kinect RGB-D camera with ArUco marker detection. Calibration itself uses the Tsai-Lenz hand-eye calibration method with Levenberg-Marquardt optimisation.
+The full system runs under ROS2 Humble on an NVIDIA Jetson Orin NX and uses an Azure Kinect RGB-D camera with ArUco marker detection. Calibration itself uses the Tsai-Lenz hand-eye calibration method with Levenberg-Marquardt optimisation.
 
 **Results**
 
