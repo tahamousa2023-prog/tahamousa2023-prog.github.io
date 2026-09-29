@@ -20,6 +20,8 @@ This work led to a co-authored journal paper, currently under review at **The In
 
 > Altenbuchner, A.M., Hartisch, R.M., **Mohammed, T.**, Abouhalawa, Z., Balatsiuk, A., Louati, A., Lallouche, H., Krüger, J. (2026). *Camera-Orientation Effects in Robotic Viewpoint Acquisition for Feed-Forward 3D Reconstruction in Manufacturing Inspection Workcells.* The International Journal of Advanced Manufacturing Technology. Under review.
 
+Beyond robotics, I am strongly drawn to the automotive and e-mobility industry. In the TU Berlin course project [Hybrid Powertrain Energy Management]({{ "/portfolio/p2-hybrid-energy-management/" | relative_url }}), our team built the operating strategy of a P2 hybrid in MATLAB/Simulink: a cost function that splits the torque between engine and electric machine every 10 ms, reaching charge-neutral fuel savings of 9.1 % in the WLTC and 7.5 % in real driving (RDE), and validated on a Nürburgring Nordschleife lap and an unseen stress profile. The same problems, energy-optimal torque split, battery management and real-time control, sit at the heart of every electric vehicle.
+
 **Education**
 
 MSc Computational Engineering Science, TU Berlin (2023 – present). Specialisations in Computer Science and Mathematics, Simulation and Optimisation, and Measurement, Control and Regulation. Relevant courses include Applied Deep Learning in Engineering, Motion Planning, Mobile Working Robot, Applied Machine Learning, and Software Engineering eingebetteter Systeme. My thesis, supervised by Prof. Dr.-Ing. Jörg Krüger, was on development and evaluation of a system for integrating and calibrating a surface processing tool into the system environment of a cobot.
@@ -48,6 +50,8 @@ Systems and embedded: CUDA, C++, Python, Docker, PLC, DCS, hardware-in-the-loop 
 
 Industrial: machine vision, camera calibration, LabVIEW, Industry 4.0
 
+Automotive and powertrain: MATLAB/Simulink, hybrid energy management, cost-function torque split, drive-cycle simulation (WLTC, RDE), Euro 6d emission evaluation
+
 **Languages**
 
 Arabic (native), German (C1), English (C1)
@@ -58,4 +62,4 @@ Arabic (native), German (C1), English (C1)
 
 [LinkedIn](https://linkedin.com/in/taha-mahmoud) · [GitHub](https://github.com/tahamousa2023-prog) · [Hugging Face](https://huggingface.co/taha-M) · [XING](https://www.xing.com/profile/Taha_Mohammed046159) · [Download CV](https://tahamousa2023-prog.github.io/files/CV_Taha_Mohammed.pdf)
 
-Open to Applied Science internships, research engineer roles, PhD positions, and industrial doctorates in robotics, computer vision, machine learning, and reinforcement learning.
+Open to Applied Science internships, research engineer roles, PhD positions, and industrial doctorates in robotics, computer vision, machine learning, and reinforcement learning. I am equally interested in automotive and e-mobility roles in Berlin-Brandenburg, from powertrain energy management and vehicle testing to production automation and machine vision for vehicle and battery manufacturing.
