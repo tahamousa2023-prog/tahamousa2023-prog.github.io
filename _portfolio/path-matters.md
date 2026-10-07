@@ -54,3 +54,15 @@ Artem Balatsiuk, Aziz Louati (documentation and reporting), Haroun Lallouche (po
 Supervisor: Adam Altenbuchner, Institut für Werkzeugmaschinen und Fabrikbetrieb, TU Berlin.
 
 Submission: April 14, 2026.
+
+**Recognition**
+
+The project was graded *sehr gut* (distinction) by the Institut für Werkzeugmaschinen und Fabrikbetrieb at TU Berlin.
+
+Supervisor Adam Altenbuchner writes in his formal recommendation:
+
+> "Herr Mohammed war an der gesamten Systempipeline beteiligt; sein Schwerpunkt lag auf der Generierung und Auswertung der Trajektorien. Seine Arbeit umfasste das Trajektoriendesign, die ICP-basierte Punktwolkenauswertung, die Registrierung mit BUFFER-X, die SAM3D-gestützte objektbezogene Wahrnehmung, die Rekonstruktionsverfahren VGGT und Fast3R sowie Ansätze des Reinforcement Learnings zur Trajektorienoptimierung. Zudem setzte er eine auf ROS2 und MoveIt2 basierende Bewegungsplanung um und band sie in die Simulationsumgebung ein."
+
+*Translation: "Mr Mohammed was involved in the entire system pipeline; his focus was on trajectory generation and evaluation. His work covered trajectory design, ICP-based point cloud evaluation, BUFFER-X registration, SAM3D-based object-centric perception, VGGT and Fast3R reconstruction methods, and reinforcement learning approaches for trajectory optimisation. He also implemented ROS2 and MoveIt2-based motion planning and integrated it into the simulation environment."*
+
+[Recommendation Letter — TU Berlin IAT (PDF)](/files/Empfehlungsschreiben_TUBerlin_IAT.pdf)
